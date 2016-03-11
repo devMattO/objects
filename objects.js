@@ -93,3 +93,25 @@ function printProcessedOrders(orders) {
 	}
 }
 printProcessedOrders(arrayOfObjects);
+
+// # 5
+
+var newObject = {
+	a: 4,
+	b: 7,
+	result: 0
+};
+
+function newFunc(object){
+	object.result = object.a + object.b;
+	return object;
+}
+
+var supahResult = newFunc(newObject);
+console.log(supahResult);
+
+
+
+
+
+
