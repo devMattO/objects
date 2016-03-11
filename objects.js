@@ -110,13 +110,25 @@ function newFunc(object){
 var supahResult = newFunc(newObject);
 console.log(supahResult);
 
-//
+// # 6
 
 function sumFunc(object){
-	console.log(object.a +' + '+ object.b + ' = ' + object.result);
+	newObject.output = object.a +' + '+ object.b + ' = ' + object.result;
 }
-sumFunc(newObject);
+var updatedObject = sumFunc(newObject);
+console.log(newObject.output);
 
+// # 7
+
+function puttingStuff(object){
+		for (var i = 0; i < 10; i++) {
+			var randomArray = Math.floor(Math.random() * 10);
+			plainBox.contents.push(randomArray);
+		}
+}
+puttingStuff(plainBox.contents);
+var puttingStuffResults = plainBox.contents;
+console.log(puttingStuffResults);
 
 
 
