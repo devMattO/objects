@@ -8,3 +8,10 @@ var plainBox = {
 
 // #2
 
+var stockCar = {
+	model: 'Ford',
+	year: 2004,
+	automaticTransmission: true,
+	driver: null,
+	passengers: [],
+};
