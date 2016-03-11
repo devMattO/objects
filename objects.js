@@ -110,6 +110,13 @@ function newFunc(object){
 var supahResult = newFunc(newObject);
 console.log(supahResult);
 
+//
+
+function sumFunc(object){
+	console.log(object.a +' + '+ object.b + ' = ' + object.result);
+}
+sumFunc(newObject);
+
 
 
 
