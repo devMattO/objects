@@ -148,14 +148,26 @@ detectingTransmission(transmissionResult);
 // # 9 //////////////////////////////////////////////////////////////
 
 function newDriver(car, person) {
-car.driver = person;
+	car.driver = person;
 }
-newDriver(stockCar, builtPerson);
 
+newDriver(stockCar, builtPerson);
 console.log(stockCar.driver);
 
 // #10 //////////////////////////////////////////////////////////////
 
+var passengerList = ['Jon', 'Jason', 'Tony', 'Joe', 'Jesse', 'Nigel', 'Kelli', 'Marifel', 'Victor'];
+var passengerAges = [19, 12, 21, 22, 16, 9, 19, 20, 15];
+
+function ridinDirty (car, name, age){
+	for (var i = 0; i < passengerAges.length; i++){
+		car.passengers.push(name[i], age[i]);
+	}
+	return car;
+}
+
+ridinDirty(stockCar, passengerList, passengerAges);
+console.log(stockCar);
 
 
 
