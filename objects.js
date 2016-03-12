@@ -130,6 +130,19 @@ puttingStuff(plainBox.contents);
 var puttingStuffResults = plainBox.contents;
 console.log(puttingStuffResults);
 
+// # 8
+var transmissionResult = stockCar.automaticTransmission;
+
+function detectingTransmission(object) {
+	
+	if ( object === true ) {
+		console.log('Yes I know. I cannot drive stick....');
+	}else{
+		console.log('So you tokyo drift often?');
+	}
+}
+
+detectingTransmission(transmissionResult);
 
 
 
