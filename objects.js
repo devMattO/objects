@@ -1,4 +1,4 @@
-// # 1
+// # 1 ////////////////////////////////////////////////////////////
 
 var plainBox = {
 	color: 'green',
@@ -6,7 +6,7 @@ var plainBox = {
 	contents: []
 };
 
-// # 2
+// # 2 ////////////////////////////////////////////////////////////
 
 var stockCar = {
 	model: 'Ford',
@@ -16,7 +16,7 @@ var stockCar = {
 	passengers: [],
 };
 
-// # 3
+// # 3 ////////////////////////////////////////////////////////////
 
 var plainPerson = {};
 
@@ -32,7 +32,7 @@ console.log(builtPerson);
 console.log(plainPerson.name);
 console.log(plainPerson.age);
 
-// # 4
+// # 4 ////////////////////////////////////////////////////////////
 
 var arrayOfObjects = [
   {
@@ -94,7 +94,7 @@ function printProcessedOrders(orders) {
 }
 printProcessedOrders(arrayOfObjects);
 
-// # 5
+// # 5 ////////////////////////////////////////////////////////////
 
 var newObject = {
 	a: 4,
@@ -110,7 +110,7 @@ function newFunc(object){
 var supahResult = newFunc(newObject);
 console.log(supahResult);
 
-// # 6
+// # 6 ////////////////////////////////////////////////////////////
 
 function sumFunc(object){
 	newObject.output = object.a +' + '+ object.b + ' = ' + object.result;
@@ -118,7 +118,7 @@ function sumFunc(object){
 var updatedObject = sumFunc(newObject);
 console.log(newObject.output);
 
-// # 7
+// # 7 ////////////////////////////////////////////////////////////
 
 function puttingStuff(object){
 		for (var i = 0; i < 10; i++) {
@@ -130,7 +130,8 @@ puttingStuff(plainBox.contents);
 var puttingStuffResults = plainBox.contents;
 console.log(puttingStuffResults);
 
-// # 8
+// # 8 /////////////////////////////////////////////////////////////
+
 var transmissionResult = stockCar.automaticTransmission;
 
 function detectingTransmission(object) {
@@ -143,6 +144,8 @@ function detectingTransmission(object) {
 }
 
 detectingTransmission(transmissionResult);
+
+// # 9 //////////////////////////////////////////////////////////////
 
 
 
