@@ -147,6 +147,16 @@ detectingTransmission(transmissionResult);
 
 // # 9 //////////////////////////////////////////////////////////////
 
+function newDriver(car, person) {
+car.driver = person;
+}
+newDriver(stockCar, builtPerson);
+
+console.log(stockCar.driver);
+
+// #10 //////////////////////////////////////////////////////////////
+
+
 
 
 
